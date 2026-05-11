@@ -1,0 +1,19 @@
+name: xp-inrs
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch
+  - pytorch-cuda=12.1
+  - numpy
+  - scikit-image
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - ipykernel
+  - jupyterlab
+  - pip
+  - pip:
+      - torchmetrics
