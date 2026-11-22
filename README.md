@@ -9,7 +9,7 @@ Experiments for studying what different layers of implicit neural representation
 > [!IMPORTANT]
 > This repository is a work in progress. We welcome constructive feedback, questions, and suggestions from researchers working with INRs, representation analysis, transfer learning, and sparse autoencoders.
 
-![Teaser: Strainer layer transfer and SAE feature decomposition](figures/teaser-1.png)
+![Teaser: Strainer layer transfer and SAE feature decomposition](figures/teaser_poster.png)
 
 The current workflow is centered on `strainer_sae_decomposition.ipynb`. The notebook trains a Strainer-style INR with a SIREN backbone on a small image cohort, transfers frozen encoder layers to held-out images, fits TopK SAEs to hidden activations at different encoder depths, and provides SAE atom ablations for probing how individual sparse features affect reconstructed signals.
 
@@ -23,7 +23,7 @@ The current workflow is centered on `strainer_sae_decomposition.ipynb`. The note
 
 Example SAE feature maps across INR backbones and encoder depths:
 
-![CelebA SAE feature gallery across INR backbones and depths](figures/gallery_celeba.png)
+![CelebA SAE feature gallery across INR backbones and depths](figures/sae_atom_gallery_coral.png)
 
 ## Setup
 
