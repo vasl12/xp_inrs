@@ -2,7 +2,7 @@
 
 # What Cohort INRs Encode and Where to Freeze Them
 
-This repository accompanies the paper *What Cohort INRs Encode and Where to Freeze Them*.
+This repository accompanies the paper *What Cohort INRs Encode and Where to Freeze Them*, presented at NeurIPS 2026 in Sydney.
 
 Experiments for studying what different layers of implicit neural representations (INRs) learn, how well those layers transfer to new signals, and what sparse autoencoders (SAEs) reveal about their internal features.
 
